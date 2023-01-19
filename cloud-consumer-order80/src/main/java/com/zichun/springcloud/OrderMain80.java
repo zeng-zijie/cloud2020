@@ -1,4 +1,4 @@
-package zom.zichun.springcloud;
+package com.zichun.springcloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

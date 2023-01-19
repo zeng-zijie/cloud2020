@@ -1,4 +1,4 @@
-package zom.zichun.springcloud.config;
+package com.zichun.springcloud.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

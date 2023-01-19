@@ -3,7 +3,6 @@ package com.zichun.springcloud.service.impl;
 import com.zichun.springcloud.dao.PaymentDao;
 import com.zichun.springcloud.entities.Payment;
 import com.zichun.springcloud.service.PaymentService;
-import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
