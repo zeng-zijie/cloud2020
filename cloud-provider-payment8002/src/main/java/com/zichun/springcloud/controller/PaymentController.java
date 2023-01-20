@@ -1,6 +1,5 @@
 package com.zichun.springcloud.controller;
 
-
 import com.zichun.springcloud.entities.CommonResult;
 import com.zichun.springcloud.entities.Payment;
 import com.zichun.springcloud.service.PaymentService;
@@ -49,7 +48,7 @@ public class PaymentController {
         if (payment != null) {
             return new CommonResult<Payment>(200, "查询成功! serverPort: " + serverPort, payment);
         } else {
-            return new CommonResult<Payment>(444, "没有对应记录,查询ID: " + id+" serverPort: " + serverPort);
+            return new CommonResult<Payment>(444, "没有对应记录,查询ID: " + id + " serverPort: " + serverPort);
         }
     }
 
