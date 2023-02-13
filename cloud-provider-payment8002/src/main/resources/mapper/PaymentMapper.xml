@@ -8,7 +8,7 @@
         values (#{serial})
     </insert>
 
-    <resultMap id="BaseResultMap" type="com.zichun.springcloud.entities.Payment">
+    <resultMap id="BaseResultMap" type="com.zichun.cloudalibaba.entities.Payment">
         <id column="id" property="id" jdbcType="BIGINT"/>
         <id column="serial" property="serial" jdbcType="VARCHAR"/>
     </resultMap>
